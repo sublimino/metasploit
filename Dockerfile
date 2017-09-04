@@ -9,3 +9,4 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y \
 
 COPY start.sh /start.sh
 
+ENTRYPOINT /start.sh
